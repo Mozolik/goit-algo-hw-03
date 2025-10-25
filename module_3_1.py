@@ -7,6 +7,6 @@ def get_days_from_today(date):
         return 0
     
     data_today = datetime.today()
-    count_days = (data_today - data_type).days
+    count_days = (data_type - data_today).days
     return count_days
 
